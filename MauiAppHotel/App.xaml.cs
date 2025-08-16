@@ -5,7 +5,7 @@
         public App()
         {
             InitializeComponent();
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new Views.Contratacao());
         }
 
         protected override Window CreateWindow(IActivationState? activationState)
